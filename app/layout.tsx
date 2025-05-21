@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         url: "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",
         width: 1200,
         height: 630,
-        alt: "Bolt Hackathon Rules Open Graph Image",
+        alt: "Bolt Hackathon Rules",
       },
     ],
     type: "website",
@@ -40,7 +40,10 @@ export const metadata: Metadata = {
     description:
       "World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
     images: [
-      "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",
+      {
+        url: "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",
+        alt: "Bolt Hackathon Rules",
+      },
     ],
   },
 };
