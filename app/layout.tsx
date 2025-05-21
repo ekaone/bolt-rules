@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",
         width: 1200,
         height: 630,
         alt: "Bolt Hackathon Rules Open Graph Image",
@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     title: "Bolt Hackathon Rules",
     description:
       "World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
-    images: ["/og-image.png"],
+    images: [
+      "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",
+    ],
   },
 };
 
