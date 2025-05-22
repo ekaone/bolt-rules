@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png" alt="Bolt Hackathon Rules" width="1200" />
+  <a href="https://bolt-hackathon-rules.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png" alt="Bolt Hackathon Rules" width="1200" />
+  </a>
 </div>
 
 
