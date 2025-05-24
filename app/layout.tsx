@@ -16,14 +16,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bolt Hackathon Rules",
   description:
-    "World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
+    "A ChatBOT for World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
     title: "Bolt Hackathon Rules",
     description:
-      "World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
+      "A ChatBOT for World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
     images: [
       {
         url: "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bolt Hackathon Rules",
     description:
-      "World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
+      "A ChatBOT for World’s Largest Hackathon presented by Bolt (the “Hackathon”) Official Rules",
     images: [
       {
         url: "https://res.cloudinary.com/ddjsyskef/image/upload/v1747845448/public/bigtw3yulolo98wlhr6k.png",

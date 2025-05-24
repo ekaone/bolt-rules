@@ -86,7 +86,8 @@ export const Header = () => {
             </div>
           </span>
         </div>
-        <div className="flex flex-row items-center shrink-0 mr-4">
+        <div className="flex flex-row items-center shrink-0 mr-4 gap-2">
+          <TimeCountdownButton />
           <StarButton />
         </div>
       </div>
@@ -108,6 +109,28 @@ const Github = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+const TimeCountdown = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="lucide lucide-calendar-clock-icon lucide-calendar-clock"
+  >
+    <path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" />
+    <path d="M16 2v4" />
+    <path d="M8 2v4" />
+    <path d="M3 10h5" />
+    <path d="M17.5 17.5 16 16.3V14" />
+    <circle cx="16" cy="16" r="6" />
+  </svg>
+);
+
 export function StarButton() {
   return (
     <Link
@@ -121,3 +144,15 @@ export function StarButton() {
     </Link>
   );
 }
+
+const TimeCountdownButton = () => (
+  <Link
+    href="https://bolt-hackathon-countdown.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-300 hover:text-zinc-700 dark:hover:text-zinc-300"
+  >
+    <TimeCountdown className="size-4" />
+    <span className="hidden sm:inline">Global Countdown</span>
+  </Link>
+);
