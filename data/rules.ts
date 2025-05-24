@@ -26,6 +26,8 @@ SUBMISSION OF ANY ENTRY CONSTITUTES AGREEMENT TO THESE OFFICIAL RULES AS A CONTR
 
 **Winners Announced**: On or around July 26, 2025 (10:00 am Pacific Time).
 
+**Global Time Countdown**: See [here](https://bolt-hackathon-countdown.netlify.app/) for a global Time Countdown of the hackathon.
+
 ##### 2\. Sponsor and Administrator
 
 **Sponsor**: StackBlitz, Inc., 2443 Fillmore St #380-7122, San Fransisco, CA 94115
