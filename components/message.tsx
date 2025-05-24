@@ -19,6 +19,8 @@ import {
 import { SpinnerIcon } from "./icons";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { Button } from "./ui/button";
+import { Weather } from "./weather";
+import { Schedule } from "./schedule";
 
 interface ReasoningPart {
   type: "reasoning";
@@ -172,7 +174,11 @@ const PurePreviewMessage = ({
                     </motion.div>
                   );
                 case "tool-invocation":
-                  const { toolName, state } = part.toolInvocation;
+                  const { toolName, state, result } = part.toolInvocation as {
+                    toolName: string;
+                    state: string;
+                    result?: any;
+                  };
 
                   return (
                     <motion.div
@@ -205,6 +211,12 @@ const PurePreviewMessage = ({
                           ) : null}
                         </div>
                       </div>
+                      {state === "result" &&
+                        toolName === "displayWeather" &&
+                        result && <Weather {...result} />}
+                      {state === "result" &&
+                        toolName === "displaySchedule" &&
+                        result && <Schedule {...result} />}
                     </motion.div>
                   );
                 case "reasoning":
