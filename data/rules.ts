@@ -26,7 +26,7 @@ SUBMISSION OF ANY ENTRY CONSTITUTES AGREEMENT TO THESE OFFICIAL RULES AS A CONTR
 
 **Winners Announced**: On or around July 26, 2025 (10:00 am Pacific Time).
 
-**Global Time Countdown**: See [here](https://bolt-hackathon-countdown.netlify.app/) for a global Time Countdown of the hackathon.
+**Global Time Countdown**: See [here](https://bolt-hackathon-countdown.netlify.app/) for a global Time Countdown that listing local start times for major cities around the world.
 
 ##### 2\. Sponsor and Administrator
 
