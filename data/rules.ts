@@ -1,7 +1,9 @@
 // This file is generated from https://www.firecrawl.dev/ for edge runtime compatibility.
 // To update, re-run the export script or manually update this file.
 
-export const rules = `
+import dedent from "dedent";
+
+export const rules = dedent`
 ### [World’s Largest Hackathon presented by Bolt](https://worldslargesthackathon.devpost.com/)
 
 May 30 – Jun 30, 2025
@@ -253,7 +255,120 @@ Information collected from Entrants is subject to Devpost’s Privacy Policy, wh
 
 For questions, send an email to support@devpost.com.
 
-![](<Base64-Image-Removed>)
-
 [Previous image](https://worldslargesthackathon.devpost.com/rules)[Next image](https://worldslargesthackathon.devpost.com/rules)
+
+#### GLOBAL PRIZES
+
+Awarded to the top 10 projects across the hackathon that demonstrated the highest marks across all four judging criteria: Potential Impact, Quality of Idea, Technological Implementation, and Design & User Experience.
+
+**Grand Prize (1st Place)** The most exceptional project of the hackathon. This winner knocked it out of the park across every judging criteria — impact, creativity, technical build, and design polish.
+
+**2nd–5th Place** Incredible projects that delivered powerful ideas and beautiful execution. These teams showed excellence in both innovation and craft.
+
+**6th–10th Place** Strong contenders that built useful, well-designed applications with impressive technical implementation and storytelling. These projects stood out from thousands of entries.
+
+##### REGIONAL HIGHLIGHTS
+
+Spotlighting one standout team from each region that made an impact.
+
+**AMER Winner** The most impressive project from North, Central, or South America.
+
+**APAC Winner** The top entry from the Asia-Pacific region that showed standout quality and creativity.
+
+**EMEA Winner** Recognizing the best submission from Europe, the Middle East, or Africa.
+
+##### BONUS AWARDS
+
+These unique categories recognize specific types of excellence across all submissions, regardless of region or ranking.
+
+- ** Standout Event Hosts**
+Awarded to the most welcoming, community-driven IRL meetup leaders. Built community and apps.
+
+- ** Inspirational Story**
+For the project with a powerful origin story, whether it’s overcoming adversity, building with purpose, or surprising yourself.
+
+- ** One-Shot Competition**
+
+Best project built with only a single prompt.
+- ** Uniquely Useful Tool**
+A project that solves a real problem in a simple, effective way. Bonus points for “why didn’t this exist before” energy.
+
+- ** Creative Use of AI**
+Most original, clever, or unexpected use of AI throughout the build.
+
+- ** Most Beautiful UI**
+Awarded to the best-designed project. Looks good and feels even better.
+
+- ** Most Viral Project**
+The most shared, reposted, and buzzed-about project of the hackathon. May or may not have broken the internet.
+
+- ** Future Unicorn**
+The project that looks like it’s on a path to become a billion-dollar startup.
+
+- ** Sharpest Problem Fit**
+The best match between problem and solution. This one’s all about why it matters and how well it fits.
+
+- ** Top Build-in-Public Journey**
+For the creator who documented and shared their build every step of the way.
+
+- ** We Didn’t Know We Needed This**
+Awarded to the most delightful surprise — a project no one asked for but everyone now wants.
+
+- ** Most Likely to Get Funded**
+If a VC had one check left to write, this is the project they’d back.
+
+
+##### Challenger Prizes Incoming...
+
+In addition to our global and bonus awards, we’re teaming up with some very special partners to launch exclusive challenge tracks — each with $25,000 up for grabs.
+
+We can’t say much yet, but here’s what we can tell you:
+
+- Niche tracks designed to test specific skills and creativity
+- Perfect for builders who like pushing boundaries
+- Open to all participants — no extra signup needed
+
+Official challenges will be revealed soon. Keep your eyes on the announcements, these may be the most fun (and unexpected) ways to win.
+
+#### Resources
+
+##### TOOLS AND TECHNOLOGIES
+
+- < 1 minute - [Build an application through a prompt on Bolt.new](https://bolt.new/)
+- < 8 minutes - [Database Tutorial on how to use databases in Bolt.new](https://support.bolt.new/docs/database)
+- < 8 minutes - [Authentication Tutorial on adding user authentication to your bolt.new app](https://support.bolt.new/docs/authentication)
+- < 1 minute - [Manual Deployment Tutorial on how to drag and drop deploys on Netlify](https://support.bolt.new/docs/manual-deployment)
+
+##### EVENTS
+
+- [Join IRL events for team formation, brainstorming, and co-building sessions](http://app.getriver.io/bolt)
+
+
+##### SUPPORT CHANNELS
+
+- Join the [Bolt Discord Server](https://discord.com/invite/stackblitz) community and find the channels associated with this hackathon
+
+#### Add the Bolt.new badge
+
+All submissions must include a visible Bolt.new badge on the publicly deployed version of your project. This badge confirms your project was built with Bolt.new.
+
+#### Badge guidelines
+
+The example is from [https://thechainsmokers.com/](https://thechainsmokers.com/)
+
+**Here are some guidelines:**
+
+- **Mandatory Inclusion**: All submitted projects must display the Bolt.new badge on their publicly deployed version.
+- **Visibility**: The badge must be clearly visible to the public on the main home page.
+- **Placement**: Use your best judgement for your project’s branding but we recommend placing the badge in the top right (as seen in the above example) or bottom right.
+- **Sizing**: The badge should be scalable and responsive to different screen sizes.
+- **Hyperlink**: All badges must hyperlink to [https://bolt.new/](https://bolt.new/).
+- **Badge Variations**:
+
+  - **White Circle**: Use on dark backgrounds for visibility.
+  - **Black Circle**: Use on light backgrounds for visibility.
+  - **Text Only**: Use on dark backgrounds if preferred over the circle for your project's branding.
+
+- **Files**: [Shared in public Drive Folder here](https://drive.google.com/drive/folders/1iNALInxyPJl7IHP5iywUKqsdumCrWIA0?usp=sharing)
+
 `;
