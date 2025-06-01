@@ -2,6 +2,7 @@
 // To update, re-run the export script or manually update this file.
 
 import dedent from "dedent";
+import { toolbox } from "./toolbox";
 
 export const rules = dedent`
 ### [World’s Largest Hackathon presented by Bolt](https://worldslargesthackathon.devpost.com/)
@@ -372,5 +373,7 @@ The example is from [https://thechainsmokers.com/](https://thechainsmokers.com/)
   - **Text Only**: Use on dark backgrounds if preferred over the circle for your project's branding.
 
 - **Files**: [Shared in public Drive Folder here](https://drive.google.com/drive/folders/1iNALInxyPJl7IHP5iywUKqsdumCrWIA0?usp=sharing)
+
+${toolbox}
 
 `;
